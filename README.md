@@ -10,22 +10,22 @@ docker pull ubuntu:latest
 ```
 docker run -it -p 8888:8888 ubuntu:latest
 
-apt-get update
-apt-get upgrade
+apt-get update -y
+apt-get upgrade -y
 ```
 
 ### Install Git
 ```
-apt install git
+apt install git  nano vim -y
 git --version
 
 ```
 
 ### Install Python & Python Env
 ```
-apt-get install python3
-apt-get install python3-pip
-apt install python3-venv
+apt-get install python3 -y 
+apt-get install python3-pip -y
+apt install python3-venv -y
 
 python3 --version
 pip3 --version
